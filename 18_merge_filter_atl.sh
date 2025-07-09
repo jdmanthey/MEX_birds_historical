@@ -6,7 +6,7 @@
 #SBATCH --partition=nocona
 #SBATCH --time=48:00:00
 #SBATCH --mem-per-cpu=8G
-#SBATCH --array=1-35
+#SBATCH --array=1-40
 
 source activate bcftools
 
