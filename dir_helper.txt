@@ -1,0 +1,12 @@
+06_stats_atl
+06_stats_car
+06_stats_cat
+06_stats_myi
+06b_stats_atl
+06b_stats_car
+06b_stats_cat
+06b_stats_myi
+06c_stats_atl
+06c_stats_car
+06c_stats_cat
+06c_stats_myi
