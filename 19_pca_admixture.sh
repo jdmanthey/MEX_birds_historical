@@ -290,19 +290,19 @@ done
 
 # thin for pca
 vcftools --vcf Atl_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Atl_transversions
 
 vcftools --vcf Car_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Car_transversions
 
 vcftools --vcf Cat_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Cat_transversions
 
 vcftools --vcf Myi_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Myi_transversions
 
 # rename (to match below code names)
@@ -384,19 +384,19 @@ done
 
 # thin for pca
 vcftools --vcf Atl_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Atl_transversions
 
 vcftools --vcf Car_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Car_transversions
 
 vcftools --vcf Cat_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Cat_transversions
 
 vcftools --vcf Myi_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Myi_transversions
 
 # rename (to match below code names)
@@ -478,19 +478,19 @@ done
 
 # thin for pca
 vcftools --vcf Atl_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Atl_transversions
 
 vcftools --vcf Car_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Car_transversions
 
 vcftools --vcf Cat_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Cat_transversions
 
 vcftools --vcf Myi_transversions.vcf --thin 10000 \
---mac 4 --max-alleles 2 --max-maf 0.49 --recode \
+--mac 4 --max-missing 0.8 --max-alleles 2 --max-maf 0.49 --recode \
 --recode-INFO-all --out Myi_transversions
 
 # rename (to match below code names)
