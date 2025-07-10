@@ -67,3 +67,4 @@ mkdir 31_downsample_script
 mkdir 32_genotype_script
 mkdir 33_merge_filter_script
 mkdir 34_genotyping_stats
+mkdir 40_data_char
