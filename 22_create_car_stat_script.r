@@ -135,7 +135,7 @@ write("", file=a.script, append=T)
 
 
 # Rscript command for stats
-if(stat_question == T) {
+if(stat_question == T | phylo_question == T) {
 	rscript_command <- paste("\tRscript _window_stat_calculations.r ", project_directory, "/windows/${chrom_array}__${start_array}__${end_array}.recode.vcf popmap_stats.txt", sep="")
 	write(rscript_command, file=a.script, append=T)
 	write("", file=a.script, append=T)
